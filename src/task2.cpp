@@ -3,17 +3,6 @@
 //
 #include "movie_db.h"
 
-/*struct MOVIE
-{
-    int Budget;
-    std::string Country;
-    std::string Director;
-    std::string Genre;
-    std::vector<std::string> main_roles;
-    std::vector<std::string> Scenario;
-    int year_of_production;
-    std::string movie;
-};*/
 bool find_name_from_list(json temp , std::string temp_name)
 {
     std::vector<std::string> temp_list = temp;
