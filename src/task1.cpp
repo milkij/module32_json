@@ -1,9 +1,9 @@
-#include <iostream>
-#include <nlohmann/json.hpp>
-#include <fstream>
-using json = nlohmann::json;
+//
+// Created by Александр Широков on 07.10.2023.
+//
+#include "movie_db.h"
 
-int main() {
+int task1() {
 
     json j;
     j["movie"]="The Expendables 4";
@@ -25,7 +25,8 @@ int main() {
             "Randy Couture",
             "Jacob Skipio"
     };
-    std::ofstream file("movie.json");
+    std::ofstream file("movies.json");
+    std::cout << j;
     file << j;
 
     return 0;
