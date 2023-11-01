@@ -56,9 +56,4 @@ int task2()
     } //end main loop
 
 
-    /*MOVIE m;
-    m.main_roles = j["In the main roles"];
-    std::vector<MOVIE> db;
-    db.push_back(m);
-    std::cout << db[0].main_roles[1];*/
 }
